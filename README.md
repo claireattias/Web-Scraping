@@ -1,17 +1,27 @@
-### Part 1: Scrape Titles and Preview Text from Mars News
+This activity extracts information via both automated browsing with Splinter and HTML parsing with Beautiful Soup. It scrapes data from two websites (https://static.bc-edx.com/data/web/mars_news/index.html and https://static.bc-edx.com/data/web/mars_facts/temperature.html) and stores the data in Python objects.
 
--Use automated browsing (Splinter) to visit the Mars news site to identify which elements to scrape
+Part 1: Scrape Titles and Preview Text from Mars News
+-
 
--Create a Beautiful Soup object and use it to scrape the data in the HTML table
+- Automated browsing (Splinter) was used to visit the Mars news site
+  
+- The page was inspected to identify which elements to scrape
 
--Extract the titles and preview text of the news articles that you scraped
+- A Beautiful Soup object was created and used to extract text elements from the website
 
-### Part 2: Scrape and Analyze Mars Weather Data
+- The titles and preview text of the news articles were extracted
 
--Use automated browsing (splinter) to visit the Mars Temperature Data Site. Inspect the page to identify which elements to scrape
 
--Create a Beautiful Soup object and use it to scrape the data in the HTML table
+Part 2: Scrape and Analyze Mars Weather Data
+-
 
--Assemble the scraped data into a Pandas DataFrame
+- Automated browsing (splinter) was used to visit the Mars Temperature Data Site
 
--Analyze your dataset by using Pandas functions
+- The page was inspected to identify which elements to scrape
+
+- A Beautiful Soup object was created and used to scrape the data in the HTML table
+
+- The scraped data was assembled into a Pandas DataFrame
+
+- The dataset was analyzed using Pandas functions
+
